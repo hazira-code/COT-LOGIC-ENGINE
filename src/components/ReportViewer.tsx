@@ -146,7 +146,7 @@ export default function ReportViewer() {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
         {/* Left Side Navigation chapters */}
         <div className="md:col-span-4 space-y-2">
-          <div className="bg-white border border-slate-200.rounded-xl p-4 rounded-xl shadow-sm space-y-3">
+          <div className="bg-white border border-slate-200 p-4 rounded-xl shadow-sm space-y-3">
             <h4 className="font-semibold text-xs text-slate-900 uppercase font-mono tracking-wider flex items-center gap-2 border-b border-slate-100 pb-2">
               <Layers className="w-4 h-4 text-slate-500" />
               REPORT INDEX
@@ -169,7 +169,7 @@ export default function ReportViewer() {
             </div>
           </div>
 
-          <div className="p-4 bg-slate-50 border border-slate-200.rounded-lg rounded-lg space-y-2 text-[10px] text-slate-600 leading-relaxed">
+          <div className="p-4 bg-slate-50 border border-slate-200 rounded-lg space-y-2 text-[10px] text-slate-600 leading-relaxed">
             <p>
               This report compiles our core findings. Select any chapter on the menu above to read, export, or audit the experimental methodology chapters.
             </p>

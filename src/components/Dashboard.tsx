@@ -87,8 +87,8 @@ export default function Dashboard() {
 
       {/* KPI Cards section */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        <div className="bg-white border border-slate-200.rounded-xl p-5 rounded-xl shadow-sm space-y-2">
-          <div className="flex justify-between items-center text-slate-550">
+        <div className="bg-white border border-slate-200 p-5 rounded-xl shadow-sm space-y-2">
+          <div className="flex justify-between items-center text-slate-500">
             <span className="text-xs font-medium uppercase tracking-wider font-mono">Direct Accuracy</span>
             <AlertTriangle className="w-4 h-4 text-amber-500" />
           </div>
@@ -96,8 +96,8 @@ export default function Dashboard() {
           <p className="text-[11px] text-slate-500">Fast inference baseline with immediate answer loops.</p>
         </div>
 
-        <div className="bg-white border border-slate-200.rounded-xl p-5 rounded-xl shadow-sm space-y-2">
-          <div className="flex justify-between items-center text-slate-550">
+        <div className="bg-white border border-slate-200 p-5 rounded-xl shadow-sm space-y-2">
+          <div className="flex justify-between items-center text-slate-500">
             <span className="text-xs font-medium uppercase tracking-wider font-mono">CoT Accuracy</span>
             <TrendingUp className="w-4 h-4 text-slate-600" />
           </div>
@@ -105,7 +105,7 @@ export default function Dashboard() {
           <p className="text-[11px] text-slate-500">Structured prompt trace deconstructing puzzle layers.</p>
         </div>
 
-        <div className="bg-white border border-slate-200.rounded-xl p-5 rounded-xl shadow-sm space-y-2 bg-slate-950 text-white">
+        <div className="bg-white border border-slate-200 p-5 rounded-xl shadow-sm space-y-2 bg-slate-950 text-white">
           <div className="flex justify-between items-center text-slate-400">
             <span className="text-xs font-medium uppercase tracking-wider font-mono">Audited Accuracy</span>
             <ShieldCheck className="w-4 h-4 text-emerald-400" />
@@ -119,8 +119,8 @@ export default function Dashboard() {
           <p className="text-[11px] text-slate-400">Full pipeline applying multi-turn retrospective peer audits.</p>
         </div>
 
-        <div className="bg-white border border-slate-200.rounded-xl p-5 rounded-xl shadow-sm space-y-2">
-          <div className="flex justify-between items-center text-slate-550">
+        <div className="bg-white border border-slate-200 p-5 rounded-xl shadow-sm space-y-2">
+          <div className="flex justify-between items-center text-slate-500">
             <span className="text-xs font-medium uppercase tracking-wider font-mono">Error Reduction</span>
             <Percent className="w-4 h-4 text-slate-600" />
           </div>

@@ -146,7 +146,7 @@ export default function Playground() {
   return (
     <div className="space-y-8" id="cot-playground">
       {/* Intro Header banner */}
-      <div className="bg-slate-150 border border-slate-200.rounded-xl p-6 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
+      <div className="bg-slate-100 border border-slate-200 rounded-xl p-6 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
           <span className="inline-flex items-center gap-1.5 px-3 py-1 bg-slate-900 text-white rounded-full text-xs font-mono mb-2">
             <Sparkles className="w-3 h-3" /> PIPELINE TESTING UNIT

@@ -63,7 +63,7 @@ export default function Presentation() {
 
       case "table":
         return (
-          <div className="bg-slate-50 border border-slate-200.rounded-xl p-4 rounded-xl space-y-2 flex-grow self-stretch flex flex-col justify-center text-xs">
+          <div className="bg-slate-50 border border-slate-200 p-4 rounded-xl space-y-2 flex-grow self-stretch flex flex-col justify-center text-xs">
             <h4 className="font-semibold text-slate-950 font-mono text-[10px] uppercase block tracking-wider">Evaluation Benchmarks</h4>
             
             <table className="w-full text-[10px] border-collapse font-sans">
@@ -139,7 +139,7 @@ export default function Presentation() {
 
       <div className="max-w-4xl mx-auto space-y-4">
         {/* Main slide layout */}
-        <div className="bg-white border border-slate-200.rounded-xl rounded-xl shadow-md p-8 min-h-[420px] flex flex-col justify-between relative overflow-hidden border-t-8 border-slate-950">
+        <div className="bg-white border border-slate-200 rounded-xl shadow-md p-8 min-h-[420px] flex flex-col justify-between relative overflow-hidden border-t-8 border-slate-950">
           
           {/* Top slide counts */}
           <div className="flex justify-between items-center text-[11px] font-mono font-semibold text-slate-400">
