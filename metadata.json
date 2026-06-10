@@ -1,0 +1,6 @@
+{
+  "name": "Chain-of-Thought (CoT) Logic Engine",
+  "description": "An interactive playground and visualization platform demonstrating multi-step reasoning, cognitive structuring frameworks, and self-correction modules in LLMs for complex logic traps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
